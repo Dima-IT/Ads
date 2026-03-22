@@ -10,11 +10,11 @@ public class Task2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int n = sc.nextInt(); // размер массива
+        int n = sc.nextInt();
         int[] arr = new int[n];
 
         for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt(); // ввод элементов
+            arr[i] = sc.nextInt();
         }
 
         double avg = (double) sum(arr, n) / n;
